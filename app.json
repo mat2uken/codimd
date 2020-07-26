@@ -10,6 +10,9 @@
     "repository": "https://github.com/hackmdio/codimd",
     "logo": "https://github.com/hackmdio/codimd/raw/master/public/codimd-icon-1024.png",
     "success_url": "/",
+    "scripts": {
+        "postdeploy": "fc-cache -fv"
+    },
     "env": {
         "NPM_CONFIG_PRODUCTION": {
             "description": "Let npm also install development build tool",
